@@ -1,18 +1,14 @@
 #!/usr/bin/env python3
+"""Write a type-annotated function make_multiplier that returns a function.
+"""
 from typing import Callable
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
-    """
-    Returns a function that multiplies a float by the input multiplier.
+    """make_multiplier function"""
 
-    Args:
-    multiplier (float): The input multiplier.
+    def multiply(n: float) -> float:
+        """multiply function"""
+        return n * multiplier
 
-    Returns:
-    Callable[[float], float]: A function that takes a float and returns
-    the product of the input float and the multiplier.
-    """
-    def multiply(x: float) -> float:
-        return x * multiplier
     return multiply
