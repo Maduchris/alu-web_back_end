@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-import typing
-# from typing import List
-
+"""Write a type-annotated function sum_list.
+"""
+from typing import List
 
 def sum_list(input_list: typing.List[float]) -> float:
     """
