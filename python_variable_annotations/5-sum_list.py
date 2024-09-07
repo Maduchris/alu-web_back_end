@@ -3,14 +3,7 @@
 """
 from typing import List
 
-def sum_list(input_list: typing.List[float]) -> float:
-    """
-    Returns the sum of a list of floats.
 
-    Args:
-    input_list (list[float]): The input list of floats.
-
-    Returns:
-    float: The sum of the input list of floats.
-    """
+def sum_list(input_list: List[float]) -> float:
+    """Takes a list of floats and returns their sum."""
     return sum(input_list)
