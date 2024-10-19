@@ -1,1 +1,1 @@
-Redis Basic
+These are scripts for Redis Basic

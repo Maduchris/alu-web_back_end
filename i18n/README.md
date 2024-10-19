@@ -1,1 +1,1 @@
-i18n
+These are scripts for i18n
